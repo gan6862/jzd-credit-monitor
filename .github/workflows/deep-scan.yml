@@ -1,0 +1,39 @@
+name: 江中大青年学分监控 · 每日深度巡检
+
+on:
+  schedule:
+    - cron: '0 1 * * *'      # 每天 UTC 1:00 = 北京时间 9:00
+                             # 与常规扫描（每小时第 30 分钟）错开，避免两个任务同时写 seen.json
+  workflow_dispatch:          # 允许手动点一次立即运行
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # 允许回写 seen.json（去重记录）
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行深度巡检
+        env:
+          SENDKEY: ${{ secrets.SENDKEY }}
+          STATE_FILE: seen.json
+          WINDOW_HOURS: '168'
+          DEEP_SCAN: '1'
+        run: python monitor.py
+
+      - name: 保存去重状态
+        run: |
+          if [ -f seen.json ]; then
+            git config user.name "bot"
+            git config user.email "bot@example.com"
+            git add seen.json
+            git diff --quiet --cached || git commit -m "update seen.json (deep scan)"
+            git push
+          else
+            echo "seen.json 未生成，跳过"
+          fi
