@@ -6,11 +6,13 @@
     "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9ywPCwteS2KkDafMX9nbYFA1rXQ9VYTzlqXa8Fplpd9piXfKPhpHvjaWFJc1QQtrkjWY_C1g88suCXk8SZ60zkYs_DBU5TnsFF2CMXrvbQzr34O0zTTXUcz_2dCirzdydCdhtSJHHy9B0PAnuxxEs-x030w1WOT43T2NSJzL29lbXhOXirTQjqwiSDeZkYdZVKU07dBA5F_5coG2kygVXNj3x9Nw6p-Fg..&type=2&query=%E6%B1%9F%E4%B8%AD%E5%A4%A7%E9%9D%92%E5%B9%B4&token=9F25992ECF6296A9BDB8E1153BC1DE0EBEBFA42B6ABC5A16",
     "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9ywPCwteS2Kl1q3drYnykCSb8KBKAa8rFqXa8Fplpd9eL8jLfihnjwCWk3nsQEKRJ_mh54mhDOXkoPnbm_Mg3Pr2Nqf8kljD1DCOfn0XeAfi9DJWkJFyB1Q6wNWSI-9pFwEZI8GbzoI0OeETfMC9urvyQzQDUTsycLbgZxlgQwlCIhDlr_5qXC6Omer6SBsHD4e_aJKqEbRroQuTmKY6Pjf3q8uRDTfkw..&type=2&query=%E6%B1%9F%E4%B8%AD%E5%A4%A7%E9%9D%92%E5%B9%B4&token=9DE32B500B7ED3D5787E25DC141CD610792993B26ABC261C",
     "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSxsg8x0VxdwXlzOy-Sh_65JfPJ50POBJn1qXa8Fplpd9c96q___XBTd5z6sipZQzxS4ClN5-ZyhC2ZWVIWsyW7uVBhqa6LyUsVCYLlV6JPQIXVK9QmYmRgQne7oXa8mCEukfv-7LAz44fcJZaYh4zEl_mJzR1rAIvoOxMTtwlGmVlvgbtCE01p81wrDnxQklWE2unNd6ZsxKTT7O3jNDXjPwdVqCwyPdzA..&type=2&query=%E6%B1%9F%E4%B8%AD%E5%A4%A7%E9%9D%92%E5%B9%B4&token=80AB19A73E8223293D3B61603672246E3E78A1B86AB77890",
-    "定格中国红我与国旗合个影照片征集来啦"
+    "定格中国红我与国旗合个影照片征集来啦",
+    "中秋节到了快来测测你的月饼人格吧"
   ],
   "pending": {
-    "国旗下的江中大青年共贺祖国七十七华诞": 1,
-    "人民日报喊你晒校园啦江中大er别错过": 1
+    "国旗下的江中大青年共贺祖国七十七华诞": 2,
+    "人民日报喊你晒校园啦江中大er别错过": 2,
+    "江中大的小伙伴别划走食堂中秋月饼品鉴活动来啦": 1
   },
   "pushed": [
     {
@@ -19,5 +21,5 @@
       "ts": 1790840154
     }
   ],
-  "last_run": 1790840154
+  "last_run": 1790841528
 }
