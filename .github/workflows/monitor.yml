@@ -21,7 +21,7 @@ jobs:
         env:
           SENDKEY: ${{ secrets.SENDKEY }}
           STATE_FILE: seen.json
-          WINDOW_HOURS: '24'
+          WINDOW_HOURS: '72'
         run: python monitor.py
 
       - name: 保存去重状态
